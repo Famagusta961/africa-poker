@@ -1,292 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description" content="Official legal policies applicable to the Africa Poker Club platform.">
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Official legal policies applicable to the Africa Poker Club platform." />
 <title>Africa Poker Club – Legal Documents</title>
 
-<link rel="icon" type="image/png" href="africa-poker-logo.png">
+<link rel="icon" type="image/png" href="Africa%20Poker%20-%20White%20(Centered).png" />
 
 <style>
-
 *{
-box-sizing:border-box;
+  box-sizing:border-box;
 }
 
 :root{
---gold:#FFC107;
---gold2:#FF9800;
---black:#000;
---dark:#111;
---white:#FFF;
---silver:#E6E6E6;
+  --gold:#FFC107;
+  --gold2:#FF9800;
+  --black:#000000;
+  --dark:#111111;
+  --white:#FFFFFF;
+  --silver:#E6E6E6;
 }
 
 body{
-margin:0;
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-font-family:Arial, Helvetica, sans-serif;
-background:#000;
-color:#fff;
-padding:12px;
-position:relative;
-overflow-x:hidden;
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#000;
+  color:#fff;
+  padding:12px;
+  position:relative;
+  overflow-x:hidden;
 }
 
 /* GOLD GLOW BACKGROUND */
-
 body::before{
-
-content:"";
-
-position:fixed;
-inset:0;
-
-background:
-radial-gradient(circle at center,
-rgba(255,193,7,0.18) 0%,
-rgba(0,0,0,0) 50%);
-
-pointer-events:none;
-
+  content:"";
+  position:fixed;
+  inset:0;
+  background:radial-gradient(circle at center, rgba(255,193,7,0.18) 0%, rgba(0,0,0,0) 50%);
+  pointer-events:none;
 }
 
 /* CARD */
-
 .container{
-
-position:relative;
-
-width:90%;
-max-width:520px;
-
-padding:40px 35px;
-
-background:#000;
-
-border:3px solid var(--gold);
-
-border-radius:16px;
-
-text-align:center;
-
-box-shadow:
-0 0 25px rgba(255,193,7,0.45),
-0 0 60px rgba(255,193,7,0.15);
-
+  position:relative;
+  width:90%;
+  max-width:520px;
+  padding:40px 35px;
+  background:#000;
+  border:3px solid var(--gold);
+  border-radius:16px;
+  text-align:center;
+  box-shadow:
+    0 0 25px rgba(255,193,7,0.45),
+    0 0 60px rgba(255,193,7,0.15);
 }
 
 /* OUTER BORDER */
-
 .container::before{
-
-content:"";
-
-position:absolute;
-
-top:-8px;
-left:-8px;
-right:-8px;
-bottom:-8px;
-
-border:3px solid var(--silver);
-
-border-radius:20px;
-
-pointer-events:none;
-
+  content:"";
+  position:absolute;
+  top:-8px;
+  left:-8px;
+  right:-8px;
+  bottom:-8px;
+  border:3px solid var(--silver);
+  border-radius:20px;
+  pointer-events:none;
 }
 
 /* LOGO */
-
 .logo{
-
-width:100%;
-max-width:240px;
-
-margin:0 auto 25px;
-
-display:block;
-
-filter:drop-shadow(0 0 15px rgba(255,193,7,0.5));
-
+  width:100%;
+  max-width:240px;
+  margin:0 auto 25px;
+  display:block;
+  filter:drop-shadow(0 0 15px rgba(255,193,7,0.5));
 }
 
 /* TITLE */
-
 h1{
-
-margin:0 0 12px;
-
-font-size:28px;
-
-font-weight:700;
-
-color:var(--gold);
-
+  margin:0 0 12px;
+  font-size:28px;
+  font-weight:700;
+  color:var(--gold);
 }
 
 /* DESCRIPTION */
-
 p{
-
-margin:0 0 28px;
-
-font-size:14px;
-
-line-height:1.5;
-
-opacity:0.9;
-
+  margin:0 0 28px;
+  font-size:14px;
+  line-height:1.5;
+  opacity:0.9;
 }
 
 /* BUTTONS */
-
 .doc-link{
-
-display:flex;
-
-align-items:center;
-justify-content:center;
-
-gap:10px;
-
-width:100%;
-
-padding:15px;
-
-margin-bottom:14px;
-
-background:#111;
-
-border:2px solid var(--gold);
-
-border-radius:12px;
-
-color:#fff;
-
-text-decoration:none;
-
-font-weight:700;
-
-transition:all .25s ease;
-
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  width:100%;
+  padding:15px;
+  margin-bottom:14px;
+  background:#111;
+  border:2px solid var(--gold);
+  border-radius:12px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  transition:all .25s ease;
 }
 
 /* BUTTON HOVER */
-
 .doc-link:hover{
-
-background:linear-gradient(90deg,var(--gold2),var(--gold));
-
-color:#000;
-
-box-shadow:0 0 20px rgba(255,193,7,0.8);
-
-transform:translateY(-2px);
-
+  background:linear-gradient(90deg,var(--gold2),var(--gold));
+  color:#000;
+  box-shadow:0 0 20px rgba(255,193,7,0.8);
+  transform:translateY(-2px);
 }
 
 /* FOOTER */
-
 .footer{
-
-margin-top:28px;
-
-font-size:12px;
-
-opacity:.7;
-
+  margin-top:28px;
+  font-size:12px;
+  opacity:.7;
 }
 
 /* MOBILE */
-
 @media (max-width:480px){
+  .container{
+    padding:28px 18px;
+  }
 
-.container{
+  .logo{
+    max-width:200px;
+  }
 
-padding:28px 18px;
+  h1{
+    font-size:22px;
+  }
 
+  p{
+    font-size:13px;
+  }
 }
-
-.logo{
-
-max-width:200px;
-
-}
-
-h1{
-
-font-size:22px;
-
-}
-
-p{
-
-font-size:13px;
-
-}
-
-}
-
 </style>
-
 </head>
 
 <body>
-
 <div class="container">
 
-<img src="africa-poker-logo.png"
-alt="Africa Poker Club Logo"
-class="logo">
+  <img
+    src="Africa%20Poker%20-%20White%20(Centered).png"
+    alt="Africa Poker Club Logo"
+    class="logo"
+  >
 
-<h1>Africa Poker Club – Legal Documents</h1>
+  <h1>Africa Poker Club – Legal Documents</h1>
 
-<p>Official legal policies applicable to the Africa Poker Club platform</p>
+  <p>Official legal policies applicable to the Africa Poker Club platform</p>
 
-<a class="doc-link"
-href="AfricaPoker_Terms_and_Conditions.pdf"
-target="_blank"
-rel="noopener">
+  <a class="doc-link"
+     href="Africa_Poker_Club_Terms_and_Conditions.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    📄 Terms &amp; Conditions
+  </a>
 
-📄 Terms & Conditions
+  <a class="doc-link"
+     href="Africa_Poker_Club_Privacy_Policy.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    🔒 Privacy Policy
+  </a>
 
-</a>
+  <a class="doc-link"
+     href="Africa_Poker_Club_Responsible_Play.pdf"
+     target="_blank"
+     rel="noopener noreferrer">
+    ⚠ Responsible Play Policy
+  </a>
 
-<a class="doc-link"
-href="AfricaPoker_Privacy_Policy.pdf"
-target="_blank"
-rel="noopener">
-
-🔒 Privacy Policy
-
-</a>
-
-<a class="doc-link"
-href="AfricaPoker_Responsible_Play.pdf"
-target="_blank"
-rel="noopener">
-
-⚠ Responsible Play Policy
-
-</a>
-
-<div class="footer">
-
-© 2026 Africa Poker Club. All rights reserved.
+  <div class="footer">
+    © 2026 Africa Poker Club. All rights reserved.
+  </div>
 
 </div>
-
-</div>
-
 </body>
 </html>
